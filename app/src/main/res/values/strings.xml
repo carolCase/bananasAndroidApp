@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bananas</string>
+    <string name="welcome_to_banana_land">WELCOME TO BANANA LAND</string>
+    <string name="hello_bananas">Hello Bananas</string>
+    <string name="press_me">Press me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="sign_Up">Sign up</string>
+</resources>
