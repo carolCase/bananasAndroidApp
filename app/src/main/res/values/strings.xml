@@ -8,4 +8,7 @@
     <string name="sign_up">Sign Up</string>
     <string name="password">Password</string>
     <string name="sign_Up">Sign up</string>
+    <string name="save_user">Save User</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_email_and_password_to_log_in">Enter Email and password to log in</string>
 </resources>
