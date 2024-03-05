@@ -15,7 +15,7 @@ class SignUp : AppCompatActivity() {
 
 
 
-    private val userList = mutableListOf<User>()
+
 
 
     @SuppressLint("SetTextI18n", "UseSwitchCompatOrMaterialCode", "SuspiciousIndentation")
@@ -25,7 +25,7 @@ class SignUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
 
-
+        val userList = mutableListOf<User>()
 
         val tvSignUp: TextView = findViewById(R.id.tv_signup)
         val emailInput: EditText = findViewById(R.id.edt_email)
@@ -43,7 +43,7 @@ class SignUp : AppCompatActivity() {
                 val user = User(userEmail,userPassword,rememberMe)
                  userList.add(user)
                  val myIntent= Intent(this,LogIn::class.java)
-                 intent.putExtra("userList",ArrayList(userList))
+                     myIntent.putExtra("userList",ArrayList(userList))
                  startActivity(myIntent)
              } else {
                  tvSignUp.text="Please enter both email and password"
